@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.App-logo {
+  height: 70vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  margin: 5000px;
+}
+
+.button {
+  padding: 15px 30px; /* Aumenta o tamanho interno */
+  font-size: 20px; /* Deixa o texto maior */
+  width: 250px; /* Define uma largura maior */
+  height: 60px; /* Define uma altura maior */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  background-color: #08ff00; /* Cor azul padrão */
+  color: #000000; /* Texto branco */
+  border: none; /* Remove a borda */
+  border-radius: 10px; /* Borda arredondada */
+  transition: background 0.3s, transform 0.2s; /* Adiciona transições suaves */
+}
+
+.button:hover {
+  background-color: #000000; /* Escurece ao passar o mouse */
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+.button {
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #052ab8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s, transform 0.2s;
+  display: block;
+  margin: 10px auto; /* Centraliza os botões */
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* 📱 Para telas menores (ex: smartphones) */
+@media (max-width: 768px) {
+  .button {
+    width: 80%; /* Ocupará 80% da largura da tela */
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+}
+
+/* 🖥️ Para telas muito pequenas (ex: celulares em modo retrato) */
+@media (max-width: 480px) {
+  .button {
+    width: 90%; /* Ocupará quase toda a largura da tela */
+    font-size: 160px;
+    padding: 10px 150px;
+  }
+}
+.video {
+  width: 700%; /* O vídeo ocupa toda a largura disponível */
+  max-width: 6000px; /* Máximo de 600px para telas grandes */
+  height: auto; /* Mantém a proporção */
+  border-radius: 100px; /* Bordas arredondadas para um visual moderno */
+  margin-top: 200px; /* Espaço entre os elementos */
+}
+
+/* 📱 Responsivo para telas menores */
+@media (max-width: 768px) {
+  .video {
+    max-width: 90%; /* Usa quase toda a tela no celular */
+  }
+}
+
+.photo {
+  width: 200%;
+  max-width: 7000px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
